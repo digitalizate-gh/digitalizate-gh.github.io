@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -25,13 +25,13 @@ header {
     position: fixed;
     top: 336px;
     left: 6px;
-    /* background: url(lineas-naranjas.png); */
     background-image: url(lineas-naranjas.png);
     width: 42px;
     height: calc(100vh - 342px);
     background-size: contain;
-}
-nav a {
+} */
+/* background: url(lineas-naranjas.png); */
+/* nav a {
     color: #fff;
     text-decoration: none;
     transition: .3s;
@@ -53,21 +53,21 @@ section {
 .espacio-menu{
     width: calc(100% - 42px);
     height: calc(100vh - 12px);
-    /* background-color: rgba(255, 255, 255, 0.2); */
     margin: 6px 0px 6px 42px;
     border: 2px solid rgba(255, 66, 0, 0.4);
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.espacio-contenido{
+} */
+/* background-color: rgba(255, 255, 255, 0.2); */
+/* .espacio-contenido{
     width: 100%;
     max-width: 720px;
     min-height: 25px;
-    /* background-color: rgba(255, 66, 0, 0.4); */
     margin: 0px 6px;
-}
-.espacio-botones{
+} */
+/* background-color: rgba(255, 66, 0, 0.4); */
+/* .espacio-botones{
     margin: 10px 20px;
     display: flex;
     align-items: center;
@@ -113,7 +113,7 @@ section {
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #bb3000;
     --bs-btn-disabled-border-color: #bb3000;
-}
+} */
 /* .ocultar{
     width: 100px;
     height: 20px;
@@ -122,7 +122,7 @@ section {
     top: -30px;
     left: -30px;
 } */
-h1{
+/* h1{
     line-height: 26px;
     margin-bottom: 26px;
 }
@@ -151,7 +151,7 @@ p{
     text-align: center;
     font-style: italic;
     font-weight: 700;
-} 
+}  */
     
 /* .base-tarjeta{
     background: rgb(13,174,255);
