@@ -129,20 +129,51 @@ section.container-fluid {
             margin-bottom: 20px;
         }
 .boton-descarga{
- width: 100%;
- height: 100px;
- background-color: #ffffff50; 
- position: relative; 
+    width: calc(100% - 20px);
+    height: 100px;
+    background-color: #00000030;
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
 }
 .boton-descarga a{
     display: block;
     width: 100%;
     height: 100px;
-    background-color: #000;
+    /* background-color: #00000030; */
     text-decoration: none;
+    position: absolute;
+    z-index: 2;
+}
+.boton-descarga h3{
+    position: absolute;
+    top: 20px;
+    left: 36px;
+    z-index: 1;
+    text-align: left;
+    font-size: 28px;
+}
+.boton-descarga p{
+    position: absolute;
+    top: 50px;
+    left: 36px;
+    z-index: 1;
+    color: #fff;
 }
 .boton-descarga i{
+    color: #fff;
+    font-size: 38px;
+    position: absolute;
+    top: 21px;
+    right: 16px;
+    z-index: 1;
+}
+.boton-descarga .barra-color{
+    width: 25px;
+    height: 100px;
+    /* background-color: #fff600; */
     position: absolute;
     top: 0px;
-    right: 0px;
+    left: 0px;
+    z-index: 1;
 }
