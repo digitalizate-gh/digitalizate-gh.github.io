@@ -16,20 +16,21 @@ body {
     /* background: linear-gradient(225deg, rgba(126,30,163,1) 0%, rgba(242,79,204,1) 50%, rgba(222,218,118,1) 75%, rgba(75,149,212,1) 100%); */
 }
 h1{
-    font-weight: 800;
+    font-weight: 900;
     color: #fff;
     letter-spacing: 3px;
     font-style: italic;
-    font-size: 2rem;
+    /* font-size: 2rem; */
+}
+h2{
+    /* font-size: 1.8rem !important; */
+    font-style: italic;
+    color: #fff600;
 }
 p{
     line-height: 22px;
-    font-size: 18px;
+    /* font-size: 18px; */
     color: #000;
-}
-h2{
-    font-size: 1.8rem !important;
-    color: #fff600;
 }
 header {
     position: fixed;
@@ -83,8 +84,8 @@ section.container-fluid {
         writing-mode: vertical-rl;
         font-weight: 700;
         font-size: 24px;
-        font-style: normal;
-        letter-spacing: -4px;
+        font-style: italic;
+        letter-spacing: -2px;
         position: absolute;
         top: 16px;
         right: -56px;
