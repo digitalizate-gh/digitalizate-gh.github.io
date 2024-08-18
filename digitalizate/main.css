@@ -128,41 +128,21 @@ section.container-fluid {
             margin-top: 20px;
             margin-bottom: 20px;
         }
-.servicios{
-    
+.boton-descarga{
+ width: 100%;
+ height: 100px;
+ background-color: #ffffff50; 
+ position: relative; 
 }
-    .contacto{
-        width: 100%;
-        height: 100%;
-        position: relative;
-        background-color: #be6f00;
-        color: aliceblue;
-    }
-    .redes{
-        width: 100%;
-        height: 100%;
-        position: relative;
-        background-color: #00f9d4;
-        color: aliceblue;
-    }
-    .ubicacion{
-        width: 100%;
-        height: 100%;
-        position: relative;
-        background-color: #e1ff00;
-        color: aliceblue;
-    }
-    .compartir{
-        width: 100%;
-        height: 100%;
-        position: relative;
-        background-color: #0033be;
-        color: aliceblue;
-    }
-    .publicidad{
-        width: 100%;
-        height: 100%;
-        position: relative;
-        background-color: #ff9500;
-        color: aliceblue;
-    }
+.boton-descarga a{
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    text-decoration: none;
+}
+.boton-descarga i{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
