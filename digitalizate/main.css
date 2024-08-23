@@ -111,6 +111,8 @@ section.container-fluid {
         /* background-color: #444; */
         width: 100%;
         height: auto;
+        display: flex;
+        justify-content: center;
     }
     .pre-fila-3{
         /* background-color: #888; */
@@ -124,7 +126,7 @@ section.container-fluid {
             border-radius: 50%;
             border: 10px solid rgba(255, 255, 255, 0.4);
             display: block;
-            margin: auto;
+            /* margin: auto; */
             margin-top: 20px;
             margin-bottom: 20px;
         }
